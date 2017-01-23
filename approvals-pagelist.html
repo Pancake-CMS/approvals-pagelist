@@ -1,0 +1,21 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../page-manager/page-manager.html">
+
+<dom-module id="approvals-pagelist">
+    <template>
+        <style type="text/css">
+            :host {
+                display: none;
+            }
+            :host([active]){
+                display: block;
+            }
+        </style>
+        <page-manager route="{{route}}" active is-approvals-page></page-manager>
+    </template>
+    <script>
+        Polymer({
+            is: 'approvals-pagelist'
+        });
+    </script>
+</dom-module>
