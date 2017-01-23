@@ -5,5 +5,5 @@ A webcomponent that shows list of pages awaiting approvals.
 ### Installation
 
 ```shell
-bower install --save pancake-cms-page-manager
+bower install --save pancake-cms-approvals-pagelist
 ```
